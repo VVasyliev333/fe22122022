@@ -1,0 +1,57 @@
+/* h1{
+    color: brown
+} */
+h2 {
+    color: rgb(84, 40, 40)
+}
+p {
+    color:red
+}
+.green-text{
+    color:green
+}
+.bold{
+    font-weight: bold;
+}
+.green-text.bold{
+    text-decoration: underline;
+}
+#main{
+    color: lightblue
+}
+*{
+    /* text-transform: uppercase; */
+}
+h3,h4{
+    color: blueviolet
+}
+p span{
+    color: red
+}
+span+span+span+span{
+    color:aquamarine;
+}
+a [href = "index.html"]{
+    color: blanchedalmond;
+}
+ul li:first-child{
+    font-size: 40px;
+}
+div p:last-child{
+    font-size: 30px;
+}
+ul li:nth-child(3){
+    font-size: 50px;
+}
+.size{
+    width: 250px;
+    height: 200px;
+    /* padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+    padding:20px 10px;
+    border: 3px solid black;
+    /* margin-bottom: 30px; */
+    margin: 50px auto;
+}
