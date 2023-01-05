@@ -20,7 +20,7 @@ p {
     color: lightblue
 }
 *{
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 h3,h4{
     color: blueviolet
