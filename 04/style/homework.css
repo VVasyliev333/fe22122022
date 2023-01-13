@@ -71,12 +71,14 @@ nav button{
     color: #2203E4;
 }
 .main-btn{
+    display: inline-block;
     padding: 10px 16px;
     text-align: center;
     background: #0062FF;
     border: 1px solid #0062FF;
     color: #fff;
     /* border: none; */
+    text-decoration: none;
 }
 .phone-block{
     padding: 90px 0;
@@ -159,9 +161,13 @@ h4{
 .socials{
     margin-right: 19px;
 }
+.vector{
+    padding-top: 115px;
+    margin-left: 128px;
+}
 .proffesion{
     display: inline-block;
-    margin-left: 128px;
+    margin-left: px;
     margin-top: 43px;
     margin-right: 207px;
 }
@@ -206,7 +212,6 @@ h4{
     margin: 0 auto;
     background-color: #0062FF;
 }
-.for.header,
 .block3,
 .picture_students,
 .picture_freelancers,
@@ -237,6 +242,12 @@ h4{
     margin-left: 123.5px;
     margin-top: 46px;
 }
+.picture_students,
+.picture_freelancers,
+.picture_agency,
+.picture_marketers{
+    margin-right: 10px;
+}
 .For{
     font-style: normal;
     font-weight: 600;
@@ -262,12 +273,13 @@ h4{
 }
 .wrapper-check{
     width: 1296px;
-    height: 702px;
+    height: 600px;
     margin: 0 auto;
 }
 .block4{
     vertical-align: top;
     text-align: center;
+    margin-top: 40px;
 }
 .block5{
     margin-left: 150px;
@@ -340,11 +352,12 @@ h4{
     margin: 0 auto;
     background-color: #FFBE0B
 }
-.block8{
+.block8,
+.star{
     display: inline-block;
 }
 .block7{
-    padding-top: 67px;
+    padding-top: 37px;
     vertical-align: top;
     text-align: center;
 }
@@ -383,6 +396,10 @@ h4{
 .job3{
     margin-left: 12px;
 }
+.star{
+    padding-top: 30px;
+    padding-right: 20px;
+}
 #textCeo{
     margin-left: 12px;
 }
@@ -390,8 +407,6 @@ h4{
     margin-right: 178px;
 }
 .block9{
-    display: inline-block;
-    margin-left: 335px;
     margin-top: 21px;
 }
 .start{
@@ -409,13 +424,16 @@ h4{
     text-align: center;
 }
 .block10{
-    display: inline-block;
+   
 }
 .block11{
-    display: inline-block; 
     padding-bottom: 0px;
-    margin-top: 189.19px;
+    margin-top: 140.19px;
+    margin-right: 220px;
     vertical-align: top;
+}
+.block12{
+    margin-top: 93px;
 }
 .pictureIphone{
     margin-left: 152px;
@@ -433,11 +451,9 @@ h4{
     font-weight: 600;
     font-size: 36px;
 }
-#textLast{
-  margin-bottom: 0;
-}
 .block12{
     display: inline-block;
+    padding-bottom: 140px;
 }
 .discount{
     font-style: normal;
