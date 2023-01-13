@@ -102,6 +102,8 @@ h1{
     margin: 24px 24px;
 }
 .authors-text{
+    display: inline-block;
+    margin-left: 340px;
     padding-bottom: 0px;
     text-align: center;
     vertical-align: top;
@@ -113,9 +115,14 @@ h2{
     color:black;
     margin-bottom: 0px;
 }
+.authors-block{
+    margin-bottom: 131px;
+}
 .author-img-block, 
 .social-media,
-.proffesion{
+.proffession,
+.vector,
+.proffession-exp{
     display: inline-block;
 }
 .social-media{
@@ -145,11 +152,12 @@ h4{
 .socials{
     margin-right: 19px;
 }
-.proffesion{
-    display: inline-block;
-    margin-left: 128px;
-    margin-top: 43px;
-    margin-right: 207px;
+.proffession{
+    margin-left: 131px;
+}
+.vector{
+    vertical-align: top;
+    padding-top: 75px;
 }
 .name {
     margin-top: 0px;
@@ -200,14 +208,16 @@ h4{
 .picture_freelancers,
 .picture_agency,
 .picture_marketers,
-.for{
+.for,
+.for-header{
     display: inline-block;
 }
 .for-header{
     text-align: center;
+    margin-left: 360px;
 }
 .who{
-    padding-top: 71px;
+    padding-top: 30px;
     color: #FFFFFF;
 }
 #text-who{
@@ -217,16 +227,19 @@ h4{
     color: #FFFFFF;
 }
 .block1{
-    margin-left: 123.5px;
+    margin-left: 100px;
     margin-top: 78px;
 }
  
 .block2{
-    margin-left: 123.5px; 
+    margin-left: 100px; 
     margin-top: 46px;
 }
-.for{
-
+.picture_students,
+.picture_freelancers,
+.picture_agency,
+.picture_marketers{
+    margin-right: 34px;
 }
 .For{
     font-style: normal;
@@ -234,34 +247,35 @@ h4{
     font-size: 27px;
     color: #FFFF;
     margin-top: 14px;
+    margin: 0 auto;
 }
 .text-For{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #FFFF;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
 }
 .button-for{
     margin-top: 71px;
-    margin-left: 688px;
+    margin-left: 590px;
     margin-bottom: 81px;
     color: blue;
     border: 2px solid white;
     padding: 10px 16px;
     background-color: white;
 }
-.wrapper-check{
-    width: 1296px;
-    margin: 0 auto;
-}
 .block4,
 .block5,
 .block6{
     display: inline-block;
 }
+.block5,
+.block6{
+    padding-bottom: 129.5px;
+}
 .block4{
-    margin-left : 338px;
+    margin-left : 340px;
     vertical-align: top;
     text-align: center;
     margin-top: 21px;
@@ -335,7 +349,7 @@ h4{
 .wide-wrapper-opinions{
     width: 1514px;
     margin: 0 auto;
-    background-color: #FFBE0B
+    background-color:#FFBE0B;
 }
 .block7,
 .block8,
@@ -347,7 +361,7 @@ h4{
 }
 .block7{
     vertical-align: top;
-    margin-left: 455px;
+    margin-left: 335px;
 }
 .Opinions{
     font-style: normal;
@@ -368,7 +382,7 @@ h4{
     background-color: #f3f3f3;
     border-radius: 12px;
     margin-top: 42px;
-    margin-left: 409px;
+    margin-left: 283px;
     margin-bottom: 67px;
 }
 .comment{
@@ -416,7 +430,7 @@ h4{
     vertical-align: top;
 }
 .pictureIphone{
-    margin-left: 152px;
+    padding-left: 152px;
     margin-top: 80.08px;
 }
 .starLast{
@@ -436,16 +450,16 @@ h4{
 }
 .block12{
     display: inline-block;
+    padding-bottom: 103.62px;
 }
 .discount{
+    margin-left: 485px;
     font-style: normal;
-    margin-left: 494px;
     font-weight: 600;
     font-size: 27px;
-    text-align: center; 
 }
 form{
-    margin-left: 494px;
+    margin-left: 375px;
     display: inline-block;
     width: 400px;
 }
@@ -462,7 +476,7 @@ input::placeholder{
     font-size: 20px;
 }
 .main-btn.form{
-    width: 400px;
+    width: 450px;
 }
 
 
