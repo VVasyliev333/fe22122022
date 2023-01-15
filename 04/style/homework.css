@@ -28,6 +28,7 @@ body{
 }
 header{
     padding: 22px 0;
+    position: sticky;
 }
 .logo-block,
 .logo,

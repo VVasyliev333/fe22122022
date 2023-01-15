@@ -1,0 +1,59 @@
+body{
+    background-color: #e5e5e5;
+}
+.block1,
+.block2,
+.block3{
+    width: 512px;
+    height: 512px;
+}
+.block1{
+    position: absolute;
+    background-color: black;
+    top: 651px;
+    left:1404px;
+}
+.Vector{
+    position: relative;
+    top: 128.64px;
+    left: 101px;
+}
+.Flag{
+    position: relative;
+    float: right;
+    top: 335px;
+    right: 216px;
+}
+.block2{
+    position: absolute;
+    background-color: #FFCE22;
+    top: 1046px;
+    left: 1847px;
+    z-index: 2;
+}
+.Glyph{
+    position: relative;
+    bottom: 133.16px;
+    left: 52.16px;
+}
+.block3{
+    position: absolute;
+    background-color: #FFFF;
+    top: 1463px;
+    left: 2267px;
+}
+.Border{
+    position: relative;
+    background-color: #FFCE22;
+}
+.Blue-border{
+    position: relative;
+    bottom: 486px;
+    left: 34px;
+}
+.Glyph-border{
+    position: relative; 
+    bottom: 512px;
+    left: 75px;
+}
+
