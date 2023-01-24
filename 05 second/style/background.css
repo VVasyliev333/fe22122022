@@ -15,9 +15,6 @@ body{
 .right{
     float: right;
 }
-body{
-    background-color: #2c2b2b;
-}
 .first-background{
     width: 1920px;
     height: 1573px;
@@ -171,6 +168,7 @@ img{
     top: 5px;
 }
 .block3{
+    height: 720px;
     position: relative;
     top: 230px;
 }
@@ -343,7 +341,7 @@ footer{
 .info-btn-block{
     position: relative;
     bottom: 170px;
-    left: 175px;
+    right: 420px;
 }
 .main-btn{
     font-style: normal;
@@ -390,6 +388,7 @@ form{
     width: 400px;
     background-color: transparent;
     padding: 24px 25px;
+    color: #FFFFFF;
 }
 .email::placeholder{
     color: #FFFFFF;
@@ -398,7 +397,7 @@ form{
 }
 .third-btn{
     position: relative;
-    top: 0px;
+    top: 2px;
     left: 331px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -511,7 +510,7 @@ form{
     color: #FFFFFF;
     opacity: 50%;
     left: 630px;
-    bottom: 118px;
+    bottom: 200px;
 }
 
 
