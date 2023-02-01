@@ -20,7 +20,6 @@ body{
     height: 1573px;
     margin: 0 auto;
     position: relative;
-    top: 400px;
     background-image: url("../img/Background.png");
 }
 .wide-wrapper{
@@ -34,7 +33,6 @@ body{
 }
 .wrapper{
     width: 1463px;
-    height: 1400px;
     margin: 0 auto;
 }
 .header,
@@ -167,10 +165,14 @@ img{
     position: relative;
     top: 5px;
 }
-.block3{
+.block3-upper{
     height: 720px;
     position: relative;
-    top: 230px;
+    bottom: 150px;
+}
+.block3-lower{
+   position: relative;
+   bottom: 150px;
 }
 .description-2{
     position: relative;
@@ -230,13 +232,11 @@ img{
     left: 110px;
 }
 .image-1{
-    position: relative;
     width: 598px;
     height: 720px;
 }
 .second-background{
-    width: 1920px;
-    height: 1573px;
+    height: 1420px;
     margin: 0 auto;
     position: relative;
     background-repeat: no-repeat;
@@ -244,25 +244,25 @@ img{
 }
 .wide-wrapper-block-2{
     position: relative;
-    bottom: 200px;
+    padding-top: 100px;
+    bottom: px;
     width: 1920px;
     background-color: black;
     margin: 0 auto;
 }
 .block4{
     position: relative;
-    left: 263.5px;
+    left: 233.5px;
     top: 533.27px;
 }
 .bromo{
-    position: relative;
+    padding-left: 450px;
     color:#FFC178;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 24.51px;
     letter-spacing: 6px;
-    left: 430px;
 }
 .bromo::before{
     content: "";
@@ -271,9 +271,9 @@ img{
     height: 2px;
     border-radius: 20px;
     background-color: #FFC178;
-    position: absolute;
-    left: -90px;
-    top: 10px;
+    position: relative;
+    top: 12px;
+    right: 90px;
 }
 .bromo::after{
     content: "";
@@ -282,14 +282,14 @@ img{
     height: 2px;
     border-radius: 20px;
     background-color: #FFC178;
-    position: absolute;
+    position: relative;
     left: 110px;
-    top: 10px;
+    bottom: 15px;
 }
 .steps{
     position: relative;
     text-align: center;
-    right:460px;
+    right:240px;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -301,7 +301,7 @@ img{
 .Semeru{
     position: relative;
     text-align: center;
-    right:460px;
+    right:260px;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -320,15 +320,14 @@ img{
 }
 .wide-wrapper-block-3{
     position: relative;
-    bottom: 600px;
     width: 1920px;
-    height: 2150px;
+    height: 1850px;
     background-color: black;
     margin: 0 auto;
 }
 footer{
     position: relative;
-    top:605px;
+    top: 174px;
 }
 .header-2{
     width: 173px;
@@ -503,14 +502,14 @@ form{
 }
 .copyright{
     position: relative;
+    bottom: 118px;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
     opacity: 50%;
-    left: 630px;
-    bottom: 200px;
+    padding-left: 630px;
 }
 
 

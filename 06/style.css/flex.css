@@ -1,0 +1,513 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.first-background{
+    width: 1600px;
+    height: 898px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/Фон.png");
+    background-repeat: no-repeat;
+}
+.wrapper{
+    padding-left: 184px;
+    width: 1400px;
+}
+.logo{
+    padding-top: 8px;
+    padding-right: 0px;
+}
+.logo,
+nav,
+nav ul,
+nav ul li,
+input,
+.nav-link{
+    display: inline-flex;
+}
+nav{
+    vertical-align: top;
+    padding-top: 68px;
+}
+.nav-link{
+    position: relative;
+    margin-right: 20px;
+    right: 35px;
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+    text-decoration: none;
+}
+button{
+    vertical-align: top;
+    margin-top: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.button{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+.vector{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+.view{
+    margin-top: 57px;
+    margin-left: 40px;
+}
+h1{
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: extra-bold;
+    font-weight: 800;
+    font-size: 73px;
+    line-height: 74px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.goods-description{
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26.04px;
+}
+.goods{
+    position: relative;
+    color:black;
+    right: 500px;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:#C98D5A;
+    width: 284px;
+    height: 81px;
+    border-radius: 56px;
+}
+.first-img{
+    position: relative;
+    bottom:455px;
+    left:335px;
+}
+.second-background{
+    width: 1600px;
+    height: 525px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/Rectangle_21.png");
+    background-repeat: no-repeat;
+}
+.head{
+    padding-top: 60px;
+    text-align: center;
+}
+.why-description{
+    color: #151616;
+    font-family:'Montserrat';
+    font-style: extra-bold;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+}
+.second-img{
+    position: relative;
+    margin-top: 40px;
+}
+.first-flex-img{
+    width: 1039px;
+    display: flex;
+    margin-top: 42.41px;
+    justify-content: space-around;
+    position: relative;
+    left: 95px;
+}
+.border-bottom{
+    width: 1039px;
+    position: relative;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 95px;
+}
+.border{
+    border-bottom: 3px solid #767676;
+    width: 216px;
+}
+.flex-description{
+    width: 1039px;
+    position: relative;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 95px;
+}
+.flex-text{
+    text-align: center;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #767676;
+}
+.third-background{
+    width: 1600px;
+    height: 860px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/fresh-brown-bread-on-the-table.png");
+}
+.catalogue-description{
+    padding-top: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: extra-bold;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+}
+.button-menu{
+    display: flex;
+    width:1158px;
+    justify-content: space-between;
+}
+.products{
+    width: 251px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.bread{
+    width: 138px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.bread:hover{
+    background-color: #C98D5A;
+}
+.rolls{
+    width: 158px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.cookies{
+    width: 175px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.puffs{
+    width: 175px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.cakes{
+    width: 154px;
+    height: 56px;
+    border-radius: 44px;
+    border: 1px solid #c4c4c4;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    background-color:transparent;
+}
+.product-cards{
+    margin-top: 73px;
+    margin-left: 75px;
+    display: flex;
+    width: 1070px;
+    justify-content: space-between;
+}
+.card{
+    position: relative;
+    width: 307px;
+    height: 404px;
+    background-color: #1f1f1f;
+    border-radius: 30px;
+}
+.card-text{
+    margin-top: 26px;
+    text-align: center;
+    font-family:'Montserrat';
+    font-style: regular;
+    color: #c4c4c4;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.6px;
+}
+.card-img-1{
+   margin-left: 45px;
+   margin-top: 9px;
+}
+.card-img-2{
+    margin-left: 19px;
+    margin-top: 9px;
+}
+.card-img-3{
+    margin-left: 34px;
+    margin-top: 29.5px;
+}
+.card-description{
+    margin-left: 37px;
+    font-family:'Montserrat';
+    font-style: medium;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+}
+.card-description-2{
+    position: relative;
+    margin-left: 37px;
+    bottom: 25px;
+    font-family:'Montserrat';
+    font-style: medium;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+}
+.card-arrow{
+    position: relative;
+    top: 21px;
+    left: 38px;
+}
+.card-arrow-2{
+    position: relative;
+    left: 38px;
+    bottom: 5px;
+}
+.card-btn{
+    font-family:'Montserrat';
+    font-style: medium;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.29px;
+    width: 73px;
+    height: 35px;
+    background-color: #f59b4d;
+    position: relative;
+    bottom: 70px;
+    left: 169px;
+}
+.card-btn-2{
+    font-family:'Montserrat';
+    font-style: medium;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.29px;
+    width: 73px;
+    height: 35px;
+    background-color: #f59b4d;
+    position: relative;
+    bottom: 95px;
+    left: 169px;
+}
+.fourth-background{
+    width: 1600px;
+    height: 488px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/Rectangle_21.png");
+    background-repeat: no-repeat;
+}
+.about{
+    padding-top: 60px;
+    text-align: center;
+}
+.about-description{
+    color: #151616;
+    font-family:'Montserrat';
+    font-style: extra-bold;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+}
+.third-img{
+    margin-top:43.19px;
+    margin-left: 175px;
+}
+.about-info{
+    margin-top: 42.6px;
+    color: #000000;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+.about-footer{
+    margin-top:30px;
+    color: #000000;
+    font-family:'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+.fifth-background{
+    width: 1600px;
+    height: 860px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/fresh-brown-bread-on-the-table.png");
+}
+.products-description{
+    padding-top: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: extra-bold;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+}
+.flex-images{
+    margin-top: 64px;
+    margin-left: 105px;
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+}
+.flex-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-box-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-image-1{
+    width: 301px;
+    height: 201px;
+}
+.flex-image-2{
+    width: 300px;
+    height: 240px;
+}
+.flex-image-3{
+    width: 300px;
+    height: 449px;
+}
+.flex-image-4{
+    width: 300px;
+    height: 260px;
+}
+.flex-image-5{
+    width: 300px;
+    height: 145px;
+}
+.footer{
+    margin-top: 92px;
+    display: flex;
+    justify-content:space-between;
+}
+.logo-2{
+    width: 171px;
+    height: 99px;
+}
+.footer-location{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-location span:first-child{
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-bottom: 10px;
+}
+.footer-location span:last-child{
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.footer-phone-numbers{
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-family:'Montserrat';
+    font-style: regular;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
