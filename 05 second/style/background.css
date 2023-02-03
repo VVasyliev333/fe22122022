@@ -19,8 +19,8 @@ body{
     background-size: cover;
     height: 1753px;
     margin: 0 auto;
-    position: relative;
     background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
 }
 .wide-wrapper{
     margin: 0 auto;
@@ -76,7 +76,7 @@ input{
     width: 88px;
     vertical-align: top;
     margin-top: 58px;
-    margin-left: 610px;
+    margin-left: 810px;
     background-image: url("../img/coolicon.png");
     background-repeat: no-repeat;
     background-color: transparent;
