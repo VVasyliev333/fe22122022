@@ -16,18 +16,16 @@ body{
     float: right;
 }
 .first-background{
-    width: 1920px;
-    height: 1573px;
+    background-size: cover;
+    height: 1753px;
     margin: 0 auto;
     position: relative;
     background-image: url("../img/Background.png");
 }
 .wide-wrapper{
-    width: 1920px;
     margin: 0 auto;
 }
 .wide-wrapper-block{
-    width: 1920px;
     background-color: black;
     margin: 0 auto;
 }
@@ -78,7 +76,7 @@ input{
     width: 88px;
     vertical-align: top;
     margin-top: 58px;
-    margin-left: 613px;
+    margin-left: 610px;
     background-image: url("../img/coolicon.png");
     background-repeat: no-repeat;
     background-color: transparent;
@@ -112,11 +110,11 @@ span{
 .description{
     width: 940px;
     position: relative;
-   left: 450px;
+    left: 450px;
 }
 .explore{
     position: relative;
-    color:#FFC178;
+    color: #fbd784;;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -130,7 +128,7 @@ span{
     width: 72px;
     height: 2px;
     border-radius: 20px;
-    background-color: #FFC178;
+    background-color: #fbd784;
     position: absolute;
     left: -25px;
     top: 10px;
@@ -153,7 +151,7 @@ span{
     color: #FFFFFF;
     vertical-align: top;
 }
-button{ 
+.scroll{ 
     position: relative;
     left: 420px;
     top: 110px;
@@ -166,13 +164,11 @@ img{
     top: 5px;
 }
 .block3-upper{
-    height: 720px;
     position: relative;
     bottom: 150px;
 }
 .block3-lower{
-   position: relative;
-   bottom: 150px;
+   padding-top: 200px;
 }
 .description-2{
     position: relative;
@@ -194,7 +190,7 @@ img{
     width: 72px;
     height: 2px;
     border-radius: 20px;
-    background-color: #FFC178;
+    background-color: #fbd784;
     position: absolute;
     left: -90px;
     top: 10px;
@@ -219,34 +215,35 @@ img{
 }
 .pointer{
     position: relative;
-    color: #FFC178;
+    background-color: transparent;
+    color: #fbd784;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 24.51px;
     left: 0px;
     top: 20px;
+    border: none;
 }
 .pointer-right{
     position: absolute;
     left: 110px;
+    color: #fbd784;
 }
 .image-1{
     width: 598px;
     height: 720px;
 }
 .second-background{
-    height: 1420px;
+    background-size: cover;
+    height: 980px;
     margin: 0 auto;
-    position: relative;
     background-repeat: no-repeat;
     background-image: url("../img/image-2.png");
 }
 .wide-wrapper-block-2{
     position: relative;
-    padding-top: 100px;
-    bottom: px;
-    width: 1920px;
+    padding-top: 50px;
     background-color: black;
     margin: 0 auto;
 }
@@ -270,7 +267,7 @@ img{
     width: 72px;
     height: 2px;
     border-radius: 20px;
-    background-color: #FFC178;
+    background-color: #fbd784;
     position: relative;
     top: 12px;
     right: 90px;
@@ -281,7 +278,7 @@ img{
     width: 72px;
     height: 2px;
     border-radius: 20px;
-    background-color: #FFC178;
+    background-color: #fbd784;
     position: relative;
     left: 110px;
     bottom: 15px;
@@ -310,24 +307,22 @@ img{
 }
 .pointer-2{
     position: absolute;
-    color: #FFC178;
+    color: #fbd784;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 24.51px;
     top: 380px;
     left: 425px;
+    background-color: transparent;
+    border: none;
 }
 .wide-wrapper-block-3{
-    position: relative;
-    width: 1920px;
-    height: 1850px;
     background-color: black;
     margin: 0 auto;
 }
 footer{
-    position: relative;
-    top: 174px;
+    padding-top: 200px;    
 }
 .header-2{
     width: 173px;
@@ -339,8 +334,7 @@ footer{
 }
 .info-btn-block{
     position: relative;
-    bottom: 170px;
-    right: 420px;
+    bottom:75px
 }
 .main-btn{
     font-style: normal;
@@ -348,9 +342,14 @@ footer{
     font-size: 22px;
     line-height: 28.64px;
     text-align: center;
-    color: #fff;
     text-decoration: none;
     margin-right: 55.53px;
+    width: 239.35px;
+    height: 69.14px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
 }
 .secondary-btn{
     font-style: normal;
@@ -362,6 +361,7 @@ footer{
     width: 239.35px;
     height: 69.14px;
     border-radius: 8px;
+    border: none;
 }
 .footer{
     margin-top: 55.44px;
@@ -378,31 +378,34 @@ footer{
 form{
     position: relative;
     width: 400px;
+    height: 120px;
     border-bottom: 1.38px solid #FFFFFF;
 }
 .email{
     position: relative;
-    top: 75px;
-    right: 610px;
+    margin-left: 0;
     width: 400px;
     background-color: transparent;
+    background: none;
     padding: 24px 25px;
     color: #FFFFFF;
 }
 .email::placeholder{
+    position: relative;
     color: #FFFFFF;
     font-size: 20px;
     text-align: left;
 }
 .third-btn{
     position: relative;
-    top: 2px;
-    left: 331px;
+    left: 337px;
+    bottom: 75px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: #ffa343;
     width: 69.14px;
     height: 69.14px;
+    border: none;
 }
 .settings{
     position: relative;
