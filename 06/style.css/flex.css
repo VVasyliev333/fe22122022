@@ -20,13 +20,15 @@ body{
     background-size: cover;
     height: 900px;
     margin: 0 auto;
-    position: relative;
     background-image: url("../img/Фон.png");
     background-repeat: no-repeat;
 }
 .wrapper{
     padding-left: 184px;
     width: 1400px;
+}
+header{
+    margin: 0 auto;
 }
 .logo{
     padding-top: 8px;
@@ -47,7 +49,7 @@ nav{
 .nav-link{
     position: relative;
     margin-right: 20px;
-    right: 35px;
+    right: 37px;
     color: #FFFFFF;
     font-family:'Montserrat';
     font-style: normal;
@@ -111,17 +113,15 @@ h1{
 }
 .first-img{
     position: relative;
-    width: 920px;
-    height: 737px;
-    bottom:455px;
-    left:335px;
+    bottom: 455px;
+    left:500px; 
 }
 .second-background{
     background-size: cover;
     height: 525px;
     margin: 0 auto;
     position: relative;
-    background-image: url("../img/Rectangle_21.png");
+    background-color: #ebebeb;
     background-repeat: no-repeat;
 }
 .head{
@@ -405,7 +405,7 @@ h1{
     height: 488px;
     margin: 0 auto;
     position: relative;
-    background-image: url("../img/Rectangle_21.png");
+    background-color: #ebebeb;
     background-repeat: no-repeat;
 }
 .about{
