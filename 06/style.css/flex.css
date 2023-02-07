@@ -26,6 +26,7 @@ body{
 .wrapper{
     padding-left: 184px;
     width: 1400px;
+    margin: 0 auto;
 }
 header{
     margin: 0 auto;
@@ -113,8 +114,9 @@ h1{
 }
 .first-img{
     position: relative;
-    bottom: 455px;
-    left:500px; 
+    bottom: 385px;
+    left:605px; 
+    width: 977px;
 }
 .second-background{
     background-size: cover;
