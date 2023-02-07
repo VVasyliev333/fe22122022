@@ -156,8 +156,7 @@ h1{
 .menu-heading{
     padding-top: 59px;
     padding-bottom: 39px;
-    
-    text-align: center;
+    margin-left: 42.5%;
 }
 .menu-text{
     font-weight: 400;
@@ -168,6 +167,7 @@ h1{
 .menu-imgs{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .menu-img{
     border-radius: 200px;
@@ -177,7 +177,7 @@ h1{
     border: 9px solid #81613b;
 }
 .menu-first-img,.menu-second-img,.menu-third-img{
-    width: 33.3%;
+    margin-right: 30px;
 }
 .menu-item{
     width:350px;
@@ -226,7 +226,89 @@ h1{
 .menu-item-vertical{
     display: none;
 }
-@media(max-width:884px){
+@media(max-width:1400px){
+    .menu-imgs{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-img{
+        border-radius: 200px;
+        height: 350px;
+        width: 350px;
+        overflow: hidden;
+        border: 9px solid #81613b;
+    }
+    .menu-first-img,.menu-second-img,.menu-third-img{
+        width: 33.3%;
+    }
+}
+@media screen 
+    and (min-width:600px)
+    and (max-width:884px){
+        .menu-heading{
+            display: none;
+        }
+        .menu-heading-vertical{
+            display: block;
+            padding-top: 59px;
+            padding-bottom: 39px;
+            margin-left: 20%;
+        }
+        .menu-imgs{
+            display: none;
+        }
+        .menu-item{
+            display: none;
+        }
+        .menu-imgs-vertical{
+            display: block;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            height: 990px;
+            flex-direction: column;
+        }
+        .menu-img-vertical{
+            border-radius: 200px;
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            border: 9px solid #81613b;
+        }
+        .menu-item-vertical{
+            display: block;
+            width:300px;
+            height:78px;
+            padding-right: 10px;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 29.54px;
+            color: #000000;
+            position: relative;
+            bottom:100px;
+            background-color: #ffff;
+            opacity: 80%;
+            text-align: center;
+            padding-top: 23px;
+        }
+        .menu-button{
+            display:none;
+        }
+        .menu-button-vertical{
+            margin-top: 57px;
+            margin-left: 80px;
+            display: block;
+            border-radius: 20px;
+            background-color: #668E68;
+            border: none;
+            width: 160px;
+            height: 40px;
+        }
+    }
+@media screen 
+    and (min-width:360px)
+    and (max-width:600px){
     .menu-heading{
         display: none;
     }
@@ -234,7 +316,7 @@ h1{
         display: block;
         padding-top: 59px;
         padding-bottom: 39px;
-        text-align: center;
+        margin-left: 50px;
     }
     .menu-imgs{
         display: none;
@@ -243,11 +325,12 @@ h1{
         display: none;
     }
     .menu-imgs-vertical{
+        position: relative;
+        right: 30px;
         display: block;
         display: flex;
         justify-content: center;
         justify-content: space-between;
-        
         height: 990px;
         flex-direction: column;
     }
@@ -278,6 +361,8 @@ h1{
         display:none;
     }
     .menu-button-vertical{
+        position: relative;
+        right: 30px;
         margin-top: 57px;
         margin-left: 80px;
         display: block;
@@ -288,11 +373,11 @@ h1{
         height: 40px;
     }
 }
+
 .second-background{
     background-size: cover;
     margin: 0 auto;
     height: 600px;
-    
     background-image: url("../img/background_cafe.png");
     background-repeat: no-repeat;
 }
@@ -330,7 +415,7 @@ h1{
         background-image: url("../img/background_cafe_small.png");
         background-repeat: no-repeat;
     }
-    .second-background .menu-button-vertical{
+    .second-background .menu-on-vertical{
         position: relative;
     }
     .third-block{
@@ -360,8 +445,8 @@ h1{
     color: #000;
 }
 .block-news{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     border: none;
     background-color: #ffff;
     padding: 20px;
@@ -416,8 +501,18 @@ h1{
     }
     .block-news-vertical{
         display: block;
-        width: 358px;
-        height: 217px;
+        width: 100%;
+        border: none;
+        background-color: #ffff;
+        padding: 20px;
+    }
+}
+@media(max-width:410px){
+        .block-news-vertical{
+        display: block;
+        position: relative;
+        right: 20px;
+        width: 270px;
         border: none;
         background-color: #ffff;
         padding: 20px;
