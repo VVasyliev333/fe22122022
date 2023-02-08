@@ -18,9 +18,9 @@ body{
 }
 .first-background{
     background-size: cover;
-    height: 900px;
+    height: 1360px;
     margin: 0 auto;
-    background-image: url("../img/Фон.png");
+    background-image: url("../img/background_image.png");
     background-repeat: no-repeat;
 }
 .wrapper{
