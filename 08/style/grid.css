@@ -50,14 +50,14 @@ nav{
     margin-left: 20%;
 }
 .menu-block-item{
-        position: relative;
-        color: #FFFFFF;
-        font-family:'Philosopher';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 26.88px;
-        text-decoration: none;
+    position: relative;
+    color: #FFFFFF;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.88px;
+    text-decoration: none;
     }
 .menu-block-item-first{
     position: relative;
@@ -108,7 +108,6 @@ nav{
     display: flex;
     flex-direction: column;
     margin-top: 42.1%;
-    width: 78%;
 }
 .main-block-right-text{
     position: relative;
@@ -118,11 +117,98 @@ nav{
     font-weight: 400;
     font-size: 34px;
     line-height: 38.08px;
+    width:78%;
 }
 .main-block-right .main-block-right-text:nth-child(2){
     color: #FF9900;
     text-align: right;
 }
+.main-btn-vertical{
+    display: none;
+}
+.main-block-right-text-vertical{
+    display: none;
+}
+@media screen 
+    and (min-width:687px)
+    and (max-width:1919px){
+        .main-btn{
+            display: none;
+        }
+        .main-block-right-text-vertical{
+            display: none;
+        }
+        .main-btn-vertical{
+            display: block;
+            background-color: transparent;
+            border: none;
+            position: relative;
+            color: #FF9900;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26.88px;
+            position: relative;
+            top: 50%;
+        }
+        nav{
+            display: block;
+        }
+        .main-block-right-text{
+            position: relative;
+            color: #FFFFFF;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38.08px;
+        }
+    }
+@media screen 
+    and (min-width:375px)
+    and (max-width:687px){
+        .main-btn{
+            display: none;
+        }
+        .main-block-right-text{
+            display: none;
+        }
+        .main-block-right-text-vertical{
+            display: block;
+            position: relative;
+            color: #FFFFFF;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 18.08px;
+            margin-top: 20px;
+        }
+        .main-btn-vertical{
+            display: block;
+            background-color: transparent;
+            border: none;
+            position: relative;
+            color: brown;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 26.88px;
+            position: relative;
+            top: 80%;
+            right: 50%;
+        }
+        nav{
+            display: block;
+            display: inline-flex;
+            width: 66.5%;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-left: 20%;
+        }
+    }
 .second-background{
     background-size: cover;
     height: 1302px;
@@ -131,6 +217,7 @@ nav{
     background-repeat: no-repeat;
 }
 .logo-block-2{
+    width: 100%;
     padding-top: 120px;
 }
 .logo-text-2{
@@ -144,6 +231,7 @@ nav{
 }
 .logo-block-2 .logo-text-2:nth-child(2){
     color: #FF9900;
+    margin-left: 10px;
 }
 .grid{
     display: grid;
@@ -217,9 +305,495 @@ nav{
     background-color: transparent;
     border: none;
     border-bottom: 5px solid #ffe600;
-
 }
-
-
-
-
+.secondary-btn-vertical{
+    display: none;
+}
+@media screen 
+    and (min-width:375px)
+    and (max-width:1919px){
+        .grid{
+            display: flex;
+            flex-direction: column;
+        }
+        .grid-img{
+            width: 100%;
+        }
+        .second-background{
+            background-size: cover;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #F6FDee;
+            background-repeat: no-repeat;
+        }
+        .secondary-btn{
+            display: none;
+        }
+        .secondary-btn-vertical{
+            display: block;
+            color: #000000;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26.88px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 5px solid #ffe600;
+            margin: auto;
+            position: relative;
+            left: 8em;
+        }
+        .grid-text-2{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 32px;
+        }
+        .grid .grid-block:nth-child(2){
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+        .logo-block-2{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .grid{
+            align-items: center;
+        }
+    }
+    .third-background{
+        background-size: cover;
+        height: 904px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+    }
+    .first-horizontal-line{
+        border: none;
+        border: bottom;
+        border: 5px solid #FF9900;
+        position: relative;
+        top: 266px;
+    }
+    .second-horizontal-line{
+        border: none;
+        border: bottom;
+        border: 5px solid #FF9900;
+        position: relative;
+        top: 675px;
+    }
+    .grid-2{
+        display: grid;
+        grid-template-columns: repeat(4,359px);
+        margin-top: 50px;
+        grid-column-gap: 66px;
+        position: relative;
+        z-index: 2;
+    }
+    .grid-block-2{
+        height: 500px;
+    }
+    .grid-text-3{
+        text-align: left;
+        position: relative;
+        left: 20px;
+        bottom: 220px;
+    }
+    .grid-text-upper-3{
+        color: #FFFFFF;
+        width: 94px;
+        font-family:'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26.88px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 5px solid #ffe600;
+        margin-bottom: 31px;
+    }
+    .grid-text-lower-3{
+        color: #FFFFFF;
+        font-family:'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20.16px;
+    }
+@media screen 
+    and (min-width:375px)
+    and (max-width:1919px){
+        .third-background{
+            height: 100%;
+            margin-bottom: auto;
+        }
+        .first-horizontal-line{
+            display: none;
+        }
+        .second-horizontal-line{
+            display: none;
+        }
+        .grid-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .third-background .secondary-btn-vertical{
+            position: relative;
+            left: 120px;
+        }
+    }
+.fourth-background{
+    background-size: cover;
+    height: 904px;
+    margin: 0 auto;
+    background-image: url("../img/background_4.png");
+    background-repeat: no-repeat;
+}
+.grid-img-3{
+    margin-top: 63px;
+    margin-left: 95px;
+}
+.grid-text-4{
+    position: relative;
+    bottom: 378px;
+}
+.logo-block-3{
+    margin-bottom: 20px;
+}
+.logo-text-3{
+    position: relative;
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44.8px;
+}
+.logo-block-3 .logo-text-3:nth-child(2){
+    color: #FF9900;
+    margin-left: 10px;
+}
+.grid-text-upper-4{
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.16px;
+    margin-bottom: 19px;
+}
+.grid-text-4-vertical{
+    display: none;
+}
+@media screen 
+    and (min-width:375px)
+    and (max-width:1584px){
+        .grid-text-4{
+            display: none;
+        }
+        .grid-text-4-vertical{
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .fourth-background .secondary-btn-vertical{
+            position: relative;
+            
+        }
+        .grid-img-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+.fifth-background{
+    background-size: cover;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+.third-horizontal-line{
+    border: none;
+    border: bottom;
+    border: 5px solid #FF9900;
+    position: relative;
+    top: 257px;
+}
+.fourth-horizontal-line{
+    border: none;
+    border: bottom;
+    border: 5px solid #FF9900;
+    position: relative;
+    top: 947px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-column-gap: 30px;
+    margin-top: 50px;
+}
+.service-block-7{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-block-2{
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.grid-column-img-5{
+    margin-bottom: 18px;
+}
+.service-block-6{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen 
+    and (min-width:375px)
+    and (max-width:1919px){
+        .grid-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .third-horizontal-line{
+            display: none;
+        }
+        .fourth-horizontal-line{
+            display: none;
+        }
+}
+.six-background{
+    background-size: cover;
+    height: 100%;
+    margin-top: 100px;
+    background-color: #F6FDee;
+    background-repeat: no-repeat;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: minmax(300px, auto) 0.5fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap:30px;
+    margin-top: 92px;
+}
+.grid-4 .grid-block-3:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.grid-block-3{
+    display: flex;
+}
+.grid-4 .grid-block-3:nth-child(4){
+    position: relative;
+    top: 60px;
+}
+.grid-4 .grid-block-3:nth-child(3){
+    position: relative;
+    bottom: 60px;
+}
+.grid-4 .grid-block-3:nth-child(5){
+    position: relative;
+    bottom: 100px;
+}
+@media screen 
+    and (min-width:375px)
+    and (max-width:1919px){
+        .grid-4{
+            display: flex;
+            flex-direction: column;
+        }
+        .grid-img{
+            width: 100%;
+        }
+        .six-background{
+            background-size: cover;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #F6FDee;
+            background-repeat: no-repeat;
+        }
+        .grid-4 .grid-block-3:nth-child(2){
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+        .logo-block-2{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .grid-4{
+            align-items: center;
+        }
+        .grid-4 .grid-block-3:nth-child(3){
+            position: relative;
+            bottom: 20px;}
+        .grid-4 .grid-block-3:nth-child(4){
+            position: relative;
+            top: 0px;
+        }
+        .grid-4 .grid-block-3:nth-child(5){
+            position: relative;
+            bottom: 20px;
+        }
+    }
+.seventh-background{
+    background-size: cover;
+    height: 1257px;
+    background-image: url("../img/seventh_background.png");
+    background-repeat: no-repeat;
+}
+.grid-address{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 68px;
+    margin-top: 137px;
+}
+.logo-text-4{
+    position: relative;
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44.8px;
+}
+.logo-block-4 .logo-text-4:nth-child(2){
+    color: #FF9900;
+    margin-left: 10px;
+}
+.grid-address-text{
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+.grid-mail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-column-gap: 30px;
+    margin-top: 62px;
+}
+.grid-address-text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.email{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33.6px;
+}
+.last-btn{
+    margin-top: 50px;
+    width: 212px;
+    height: 66px;
+    background-color: #FF9900;
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44.8px;
+}
+.footer{
+    margin-top: 194px;
+}
+.footer-line{
+    border-top: 1px solid black;
+    margin-bottom: 40px;
+}
+.footer-left-text, .footer-right-text{
+    color: #000000;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20.16px;
+}
+.footer-right-text-vertical{
+    display: none;
+}
+.last-btn-vertical{
+    display: none;
+}
+@media screen 
+    and (min-width:375px)
+    and (max-width:1919px){
+        .grid-address{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .seventh-background{
+            height: 100%;
+        }
+        .grid-mail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-right-text{
+            display: none;
+        }
+        .footer-right-text-vertical{
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #000000;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20.16px;
+        }
+        .last-btn{
+            display: none;
+        }
+        .last-btn-vertical{
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 212px;
+            height: 66px;
+            background-color: #FF9900;
+            color: #000000;
+            font-family:'Philosopher';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44.8px;
+        }
+    }
+         
