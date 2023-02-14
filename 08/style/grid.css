@@ -235,9 +235,9 @@ nav{
 }
 .grid{
     display: grid;
-    grid-template-columns: minmax(300px, auto) 0.5fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 66px;
+    grid-row-gap: 15px;
     margin-top: 30px;
 }
 .grid .grid-block:nth-child(2){
@@ -245,14 +245,12 @@ nav{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-left: 4em;
-    margin-right: 4em;
 }
 .vintage{
     width: 100%;
 }
 .grid-text{
-    margin-top: 29px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -277,8 +275,7 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 .grid-text-upper-2{
     color: #FF9900;
@@ -287,7 +284,6 @@ nav{
     font-weight: 700;
     font-size: 24px;
     line-height: 26.88px;
-    margin-bottom: 22px;
 }
 .grid-text-lower-2{
     color: #000000;
@@ -318,9 +314,6 @@ nav{
         .grid{
             display: flex;
             flex-direction: column;
-        }
-        .grid-img{
-            width: 100%;
         }
         .second-background{
             background-size: cover;
@@ -371,71 +364,68 @@ nav{
             align-items: center;
         }
     }
-    .third-background{
-        background-size: cover;
-        height: 904px;
-        margin: 0 auto;
-        background-color: #FFFFFF;
-        background-repeat: no-repeat;
+.third-background{
+    background-size: cover;
+    height: 904px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+.first-horizontal-line{
+    border: none;
+    border: bottom;
+    border: 5px solid #FF9900;
+    position: relative;
+    top: 266px;
+}
+.second-horizontal-line{
+    border: none;
+    border: bottom;
+    border: 5px solid #FF9900;
+    position: relative;
+    top: 675px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(4,359px);
+    margin-top: 50px;
+    grid-column-gap: 66px;
+    position: relative;
+    z-index: 2;
     }
-    .first-horizontal-line{
-        border: none;
-        border: bottom;
-        border: 5px solid #FF9900;
-        position: relative;
-        top: 266px;
-    }
-    .second-horizontal-line{
-        border: none;
-        border: bottom;
-        border: 5px solid #FF9900;
-        position: relative;
-        top: 675px;
-    }
-    .grid-2{
-        display: grid;
-        grid-template-columns: repeat(4,359px);
-        margin-top: 50px;
-        grid-column-gap: 66px;
-        position: relative;
-        z-index: 2;
-    }
-    .grid-block-2{
-        height: 500px;
-    }
-    .mask-group{
-        width: 100%;
-    }
-    .grid-img-2{
-        width: 100%;
-    }
-    .grid-text-3{
-        text-align: left;
-        position: relative;
-        left: 20px;
-        bottom: 220px;
-    }
-    .grid-text-upper-3{
-        color: #FFFFFF;
-        width: 94px;
-        font-family:'Philosopher';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 26.88px;
-        background-color: transparent;
-        border: none;
-        border-bottom: 5px solid #ffe600;
-        margin-bottom: 31px;
-    }
-    .grid-text-lower-3{
-        color: #FFFFFF;
-        font-family:'Philosopher';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20.16px;
-    }
+.grid-block-2{
+    height: 500px;
+}
+.mask-group{
+    width: 100%;
+}
+.grid-text-3{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    bottom: 220px;
+}
+.grid-text-upper-3{
+    color: #FFFFFF;
+    width: 94px;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.88px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid #ffe600;
+    margin-bottom: 31px;
+}
+.grid-text-lower-3{
+    color: #FFFFFF;
+    font-family:'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.16px;
+}
 @media screen 
     and (min-width:375px)
     and (max-width:1919px){
@@ -555,31 +545,53 @@ nav{
 }
 .grid-3{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 465px 411px 700px;
     grid-column-gap: 30px;
     margin-top: 50px;
     position: relative;
     z-index: 2;
 }
+.grid-column-img-4{
+    height: 780px;
+}
+.grid-column-1{
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    justify-content: space-between;
+}
+.grid-column-3{
+    width: 700px;
+}
+.grid-column-img-1, .grid-column-img-2, .grid-column-img-3, 
+.grid-column-img-4, .grid-column-img-5, .grid-column-img-6,
+.grid-column-img-7, .grid-column-img-8{
+    width: 100%;
+}
 .service-block-7{
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
+    vertical-align: top;
+    height: 349px;
+}
+.service-block-1, .service-block-2, .service-block-3{
+   width: 465px;
 }
 .service-block-2{
-    width: 465px;
     display: flex;
     justify-content: space-between;
-    margin-top: 18px;
-    margin-bottom: 18px;
 }
 .grid-column-img-5{
     margin-bottom: 18px;
 }
-.service-block-6{
+.service-block-6-7-8{
     width: 700px;
     display: flex;
     justify-content: space-between;
+}
+.service-block-6, .service-block-7, .service-block-8{
+    display: inline-flex;
 }
 @media screen 
     and (min-width:375px)
@@ -605,9 +617,8 @@ nav{
 }
 .grid-4{
     display: grid;
-    grid-template-columns: minmax(300px, auto) 0.5fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap:30px;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    grid-column-gap: 50px;
     margin-top: 92px;
 }
 .grid-4 .grid-block-3:nth-child(2){
@@ -615,11 +626,12 @@ nav{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-left: 6em;
-    margin-right: 6em;
 }
 .grid-block-3{
-    display: flex;
+   display: flex;
+}
+.award{
+    width: 100%;
 }
 .grid-4 .grid-block-3:nth-child(4){
     position: relative;
@@ -627,11 +639,11 @@ nav{
 }
 .grid-4 .grid-block-3:nth-child(3){
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
 }
 .grid-4 .grid-block-3:nth-child(5){
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
 }
 @media screen 
     and (min-width:375px)
@@ -639,9 +651,6 @@ nav{
         .grid-4{
             display: flex;
             flex-direction: column;
-        }
-        .grid-img{
-            width: 100%;
         }
         .six-background{
             background-size: cover;
@@ -655,8 +664,6 @@ nav{
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 3;
-            margin-left: 0em;
-            margin-right: 0em;
         }
         .logo-block-2{
             display: flex;
