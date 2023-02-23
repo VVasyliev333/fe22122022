@@ -6,12 +6,14 @@ body{
 .logo-block{
     padding-top: 15px;
 }
-.col-lg-7{
+.header-container{
     padding-top: 35px;
     padding-left: 172px;
+    position: relative;
 }
 .first-input-block{
     padding-top: 33px;
+    position: relative;
 }
 .first-input{
     border: none;
@@ -132,7 +134,7 @@ footer{
     color:#3d3d3c;
 }
 .btn-outline-secondary{
-    width:159px;
+    width:159px !important;
     font-family: "Popins";
     font-style: normal;
     font-weight: 500;
@@ -140,7 +142,7 @@ footer{
     line-height: 16.95px;
     color: #000000;
     border: 1.5px solid #000000;
-}
+  }
 .footer-secondary-text{
     font-family: "Popins";
     font-style: normal;
@@ -430,12 +432,15 @@ h1{
     and (min-width:1024px)
     and (max-width:1399px){
         .big-column{
-            margin-left: 22.5% !important;
+            margin-left: 30% !important;
             margin-top: 50px;
             margin-bottom: 10%;
             }
         .d-flex .flex-row{
             width: 408px;
+        }
+        .second-container-block{
+            margin-left: 10% !important;
         }
     }
 @media screen 
@@ -650,4 +655,201 @@ h1{
             width: 90%;
             left: 5%;
         }
+}
+.fifth-container-upper-text-large{
+    font-family:'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62.1px;
+    color: #3d3d3c;
+}
+.fifth-container-upper-text-small{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.64px;
+    color: #3d3d3c;
+}
+.fifth-container-lower-text-small{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #3d3d3c;
+}
+.fifth-container-upper-text{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 75.72px;
+    color: #FFFFFF;
+}
+.fifth-container-lower-text{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.64px;
+    color: #FFFFFF;
+}
+@media screen 
+    and (min-width:280px)
+    and (max-width:900px){
+        .fifth-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .fifth-container-block{
+            margin-top: 10px !important;
+            margin-bottom: 10px! important;
+        }
+        .fifth-container-upper-text-large{
+            font-family:'Abhaya Libre', serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+        }
+        .fifth-container-upper-text{
+            font-family: 'Abhaya Libre', serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 45.72px;
+            color: #FFFFFF;
+        }
+        .fifth-container-lower-text{
+            font-family: "Popins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22.64px;
+            color: #FFFFFF;
+        }
+        .fifth-container-row{
+            height: auto !important;
+        }
+        .fifth-container-white-block{
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+        }
+}
+.six-container{
+    height:475px;
+    background-color: #f4ece8;
+    margin-top: 80px;
+    margin-bottom: 86px;
+}
+@media screen 
+    and (min-width:280px)
+    and (max-width:900px){
+        .six-container{
+            height: auto;
+        }
+        .six-container-block-1{
+            padding-left: 12px !important;
+        }
+        .six-container-block-2{
+            margin-bottom: 20px;
+        }
+}
+@keyframes final{
+    from{
+        background-color: #f4ece8;
     }
+    to{
+        background-color: #FFFFFF;
+    }
+}
+.container-fluid{
+    animation-name: final;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+@keyframes final-2{
+    from{
+        background-color: #FFFFFF;
+    }
+    to{
+        background-color: #f4ece8;
+    }
+}
+.container-xxl, .container-fluid-second{
+    animation-name: final-2;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes final-pro{
+    0%{
+        color: #000000;
+        top: 0px;
+        left: 20px;
+    }
+    25%{
+        color: #3d3935;
+        top: 0px;
+        left: 30px;
+    }
+    50%{
+        color: #3d3d3c;
+        top: 10px;
+        left: 30px;
+    }
+    100%{
+        color: #f39200;
+        top: 10px;
+        left: 0px;
+    }
+}
+.header-container{
+    animation-name: final-pro;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.text-navigation{
+    animation-name: final-pro;
+    animation-duration: 10s; 
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.first-input-block{
+    animation-name: final-pro;
+    animation-duration: 10s;  
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes final-pro-2{
+    0%{
+        background-color: #f4ece8;
+    }
+    50%{
+        background-color: #b5b7c3;
+    }
+    100%{
+        background-color: #FFFFFF;
+    }
+}
+.header-row, .first-input{
+    animation-name: final-pro-2;
+    animation-duration: 10s; 
+    border: none;
+    animation-iteration-count: 3;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.animation:hover{
+    background-color:#f39200;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
