@@ -338,6 +338,7 @@ h1{
 }
 .second-container-text{
     text-align: center;
+    margin-top: 12px;
 }
 .second-container-text:first-child{
     font-family: "Popins";
@@ -429,28 +430,37 @@ h1{
     color: #f39200;
 }
 @media screen 
-    and (min-width:1024px)
+    and (min-width:876px)
     and (max-width:1399px){
+        .second-container-row{
+            display: flex;
+            justify-content: center;
+        }
         .big-column{
-            margin-left: 30% !important;
+            margin-left: 0px !important;
             margin-top: 50px;
-            margin-bottom: 10%;
             }
         .d-flex .flex-row{
             width: 408px;
         }
-        .second-container-block{
-            margin-left: 10% !important;
+        .big-column-block{
+            display: flex !important;
+            margin-bottom: 20px;
         }
     }
 @media screen 
-    and (min-width:575px)
+    and (min-width:476px)
     and (max-width:1023px){
+        .second-container-row{
+            display: flex;
+            justify-content: center;
+            margin-left: 0 !important;
+        }
         .big-column{
-            margin-left: 22.5% !important;
+            display: flex;
             height: auto !important;
             margin-top: 50px;
-            margin-bottom: 15%;
+            margin-left: 0 !important;
         }
         .d-flex .flex-row{
             width: 408px;
@@ -467,15 +477,25 @@ h1{
         .footer-form-2 .form-control{
             width:100%;
         }
+        .big-column-block{
+            display: flex !important;
+            margin-bottom: 20px;
+        }
     }
 @media screen 
     and (min-width:280px)
-    and (max-width:574px){
+    and (max-width:475px){
+        .second-container-row{
+            display: flex;
+            justify-content: center;
+        }
         .big-column{
-            margin-left: 12.5% !important;
+            display: flex;
+            align-items: center !important;
             height: auto !important;
             margin-top: 50px;
             margin-bottom: 15%;
+            margin-left: 0px !important;
         }
         .big-column-block{
             display: flex !important;
@@ -493,8 +513,13 @@ h1{
         }
         .big-column{
             margin-top: 5%;
-            margin-bottom: 25%;
             margin-left: 0px !important;
+        }
+        .big-column-block{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
         }
         .footer-form-1 .form-control{
             width:100%
@@ -606,10 +631,35 @@ h1{
     }
 @media screen 
     and (min-width:375px)
+    and (max-width:857px){
+        .fourth-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: auto;
+            justify-content: center !important;
+        }
+        .fourth-container-block{
+            width: auto;
+            margin-bottom: 20px;
+            width: auto !important;
+            margin-right: 5px;
+        }
+        .fourth-container-text{
+            width: auto !important;
+        }
+        .fourth-container-img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+}
+@media screen 
+    and (min-width:858px)
     and (max-width:1399px){
         .fourth-container{
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             align-items: center;
             width: auto;
         }
@@ -617,6 +667,7 @@ h1{
             width: auto;
             margin-bottom: 20px;
             width: auto !important;
+            margin-right: 5px;
         }
         .fourth-container-text{
             width: auto !important;
@@ -852,4 +903,58 @@ h1{
     transition-duration: 2s;
     transition-delay: 1s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+
+
+
+
+.second-page-header-text{
+    margin-right: 20px;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15.4px;
+    color: #3d3d3c;
+}
+.second-page-first-block-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-page-first-block-text-upper{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62.1px;
+    color: #3d3d3c;
+}
+.second-page-first-block-text-lower{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #3d3d3c;
+}
+.second-page-block-text-1{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.95px;
+    color: #b5b7c3;
+}
+.second-page-block-text-2{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #3d3d3c;
 }
