@@ -75,7 +75,7 @@ footer{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 26.2px;
+    line-height: 25.2px;
     color: #000000;
 }
 .footer-lower-text{
@@ -619,7 +619,7 @@ h1{
     color: #3d3d3c;
 }
 .border-bottom{
-    border-bottom: 1.5px solid #3d3935 !important;
+    border-bottom: 1.5px solid #b5b7c3 !important;
 }
 .third-container-img-1{
     z-index: 2;
@@ -1081,6 +1081,22 @@ h1{
 
 
 
+.second-page-container{
+    padding-bottom: 23px;
+}
+.second-page-container-block{
+    width: 300px;
+    height: 480px;
+}
+.second-page-blocks{
+    padding-left: 26px;
+    padding-top: 17px;
+
+}
+.second-page-text{
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
 .second-page-header-text{
     margin-right: 20px;
     font-family: "Popins";
@@ -1089,6 +1105,9 @@ h1{
     font-size: 11px;
     line-height: 15.4px;
     color: #3d3d3c;
+}
+.second-page-first-block{
+    height: 208px;
 }
 .second-page-first-block-text{
     display: flex;
@@ -1128,3 +1147,228 @@ h1{
     line-height: 25.2px;
     color: #3d3d3c;
 }
+.second-page-container-text-right-1{
+    padding-right: 0;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.95px;
+    color: #3d3d3c;
+}
+.second-page-container-text-right-2{
+    padding-left: 0;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.95px;
+    color: #f39200;
+}
+@media screen 
+    and (min-width:280px)
+    and (max-width:374px){
+        .second-page-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+        }
+        .second-page-container-block{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .second-container-img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+@media screen 
+    and (min-width:375px)
+    and (max-width:863px){
+        .second-page-container{
+            flex-wrap: wrap;
+            align-items: center;
+            width: auto;
+            justify-content: center !important;
+        }
+        .second-page-container-block{
+            width: auto;
+            margin-bottom: 20px;
+            width: auto;
+            margin-right: 5px;
+        }
+        .second-container-img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+}
+@media screen 
+    and (min-width:864px)
+    and (max-width:1399px){
+        .second-page-container{
+            flex-wrap: wrap;
+            align-items: center;
+            width: auto;
+        }
+        .second-page-container-block{
+            width: auto;
+            margin-bottom: 20px;
+            width: auto;
+            margin-right: 5px;
+        }
+        .second-container-img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+}
+
+
+
+
+
+
+
+.third-page-text{
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.third-page-header-text{
+    margin-right: 20px;
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15.4px;
+    color: #3d3d3c;
+}
+.third-page-header-text-bold{
+    margin-right: 20px;
+    font-family: "Popins";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15.4px;
+    color: #3d3d3c;
+}
+.third-page-second-row-text-upper{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.2px;
+    color: #3d3d3c;
+}
+.third-page-second-row-text-lower{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.2px;
+    color: #e88c01;
+}
+.third-page-second-row-text-2-left{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.95px;
+    color: #e88c01;
+}
+.third-page-second-row-text-2-right{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.2px;
+    color: #b5b7c3;
+}
+.second-row-text-2-main{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45.72px;
+    color: #3d3d3c;
+}
+.second-row-text-2-secondary{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #3d3d3c;
+}
+.second-row-text-2-thirdly{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #3d3d3c;
+}
+.second-row-text-2-fourthly{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #3d3d3c;
+}
+.second-row-text-2-right-upper{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.95px;
+    color: #3d3d3c;
+}
+.third-page-column-text-upper{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 14.4px;
+    letter-spacing: 1%;
+    color: #f39200;
+}
+.third-page-column-text-lower{
+    font-family: "Popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.2px;
+    color: #3d3935;
+}
+@media screen 
+    and (min-width:576px)
+    and (max-width:1100px){
+        .third-page-column-block{
+            display: flex;
+            flex-direction: column !important;
+        }
+}
+@media screen 
+    and (min-width:280px)
+    and (max-width:575px){
+        .third-page-column-block{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
