@@ -6,6 +6,9 @@ body{
 .logo-block{
     padding-top: 15px;
 }
+.logo{
+    width: 100%;
+}
 .logo-search{
     padding-top: 33px;
 }
@@ -42,6 +45,7 @@ body{
 }
 .container-fluid{
     background-color: #f4ece8;
+    padding-right: 0;
 }
 footer{
     height: 100%;
@@ -180,7 +184,21 @@ footer{
     line-height: 18.2px;
     letter-spacing: -1%;
     color: #3d3935;
+    padding-right: 0;
 }
+.dropdown{
+    display: none;
+}
+@media screen 
+    and (min-width:280px)
+    and (max-width:1399px){
+        .hide{
+            display: none;
+        }
+        .dropdown{
+            display: block;
+        }
+    }
 @media screen 
     and (min-width:280px)
     and (max-width:375px){
@@ -299,7 +317,7 @@ h1{
             font-family: 'Abhaya Libre', serif;
             font-style: normal;
             font-weight: 700;
-            font-size: 30px;
+            font-size: 32px;
             line-height: 32.1px;
             color: #FFFFFF;
         }
@@ -324,6 +342,10 @@ h1{
         .img-fluid{
             display: flex;
             align-items: center;
+        }
+        .container-img{
+            width: 100%;
+            padding-right: 10px;
         }
     }
 .second-container h1{
@@ -475,6 +497,7 @@ h1{
             display: flex;
             justify-content: center;
             margin-left: 0 !important;
+            padding-left: 0;
         }
         .second-container-block{
             width: 100%;
@@ -484,9 +507,10 @@ h1{
         }
         .big-column{
             display: flex;
-            height: auto !important;
+            height: auto;
             margin-top: 50px;
             margin-left: 0 !important;
+            align-items: center;
         }
         .d-flex .flex-row{
             width: 408px;
@@ -514,6 +538,7 @@ h1{
         .second-container-row{
             display: flex;
             justify-content: center;
+            padding-left: 0;
         }
         .second-container-block{
             width: 100%;
@@ -1358,6 +1383,14 @@ h1{
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
+        }
+    }
+
+@media screen 
+    and (min-width:280px)
+    and (max-width:800px){
+        .third-page-text{
+            display: flex;
         }
     }
 
